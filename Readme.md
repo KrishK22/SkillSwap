@@ -4,6 +4,8 @@
 **Problem Statement:** Skill Swap Platform  
 **Team Lead Email:** guptaparth1304@gmail.com
 
+**Team Members & Emails:** Aryan Lohia ; aryanlohiaa02@gmail.com , Krish Kumar ; krish.k2024@gmail.com , Yash Vasudeva ; vasudevyash@gmail.com
+
 **Description:** On Skillsy, you create a profile with your name, location (optional), and a photo if you like. Add a list of skills you can teach and skills you want to learn. 
 Set when you’re available — evenings, weekends, or whenever you’re free. You can choose whether your profile is public or private.
 You can search or browse other members by skill — for example, find someone who knows Photoshop or wants help with Excel.
