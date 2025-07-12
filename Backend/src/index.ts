@@ -4,6 +4,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser'
 
 import { connectDB } from './lib/db';
+import publicRoute from './routes/publicRoutes'
 
 
 dotenv.config();
@@ -15,6 +16,7 @@ const app = express();
 app.use(cookieParser());
 app.use(express.json())
 
+app.use('/api/public', publicRoute)
 
 
 
