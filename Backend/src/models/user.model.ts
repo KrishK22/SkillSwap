@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     skillsOffered: [{ type: String }],
     skillsWanted: [{ type: String }],
     availability: [{ type: String }]
-})
+})  
 
 
 const User = mongoose.model('User', userSchema)
