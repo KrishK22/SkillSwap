@@ -12,7 +12,7 @@ export const publicController = async (req: Request, res: Response) => {
     try {
         if (!search) {
             const publicUsers = await userModel.find({ profileType: "public" }).skip(skipCount).limit(limit);
-            const totalUsers = await userModel.countDocuments({ profile: "public" });
+            const totalUsers = await userModel.countDocuments({ profileType: "public" });
 
             const totalPages = Math.ceil(totalUsers / limit);
 
@@ -22,6 +22,7 @@ export const publicController = async (req: Request, res: Response) => {
                 totalPages,
                 publicUsers,
             });
+            return
         }
         const filter = {
             profileType: "public",
@@ -34,7 +35,7 @@ export const publicController = async (req: Request, res: Response) => {
         }
 
         const publicUsers = await userModel.find(filter).skip(skipCount).limit(limit);
-        const totalUsers = await userModel.countDocuments({ filter });
+        const totalUsers = await userModel.countDocuments(filter);
         const totalPages = Math.ceil(totalUsers / limit);
 
         res.status(200).json({
