@@ -1,0 +1,25 @@
+//Homepage
+1) Title bar
+- Logo, login(button)
+2) Search Bar
+3)Cards
+-profilepic, Name, skills offered, skills required, rating, request(button)
+4)Pagination
+
+//Login
+1)Title bar
+-Homepage(button), Logo
+2)Card
+-email(input), password(input), login(button), !!forgot password(link)
+
+//SignUp
+1)title bar
+-Save/discard(button), home(button) ,Logo
+2)info box
+-name, email, password, profilepic, skills offered, skills wanted, availability, profiletype
+
+//profilescetion
+1)titlebar
+-logo, home(button)
+2)Card
+-request (button), name, skills offered, skills wanted, profilepic, rating
